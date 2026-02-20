@@ -1,4 +1,4 @@
-import Hero from "../../components/Capstone/Hero"
+import Hero from "../../components/capstone/Hero"
 
 const CapstoneLanding = () => {
   return (
