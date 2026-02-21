@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-red-400 p-6">
-        <NavLink to="/" className="text-3xl font-mono font-bold">
+    <div className="flex justify-between items-center bg-red-500 p-6">
+        <NavLink to="/" className="text-white text-3xl font-mono font-bold hover:text-black">
           Codie's Portfolio
         </NavLink>
       <div className="">
