@@ -1,8 +1,14 @@
 import React from 'react'
+import { NavLink } from "react-router-dom"
 
 const Theme2 = () => {
   return (
-    <div>Theme2</div>
+    <div className='flex justify-center items-center mt-10'>
+      Words words words theme 2
+      <NavLink to="../theme3" className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80">
+        Go to Theme 3
+      </NavLink>
+    </div>
   )
 }
 
