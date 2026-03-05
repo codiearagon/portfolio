@@ -1,36 +1,35 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
+import PageContent from '../../components/Capstone/PageContent'
+import ExperienceTheme from '../../components/Capstone/ExperienceTheme'
 
 const CapstoneExperience = () => {
   return (
     <div>
-      Some words for capstone experience
-      <div className='flex flex-col justify-center items-center mt-10 gap-10'>
-        <div>
-          Words words words
-          <NavLink to="theme1" className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80">
-            Theme 1
-          </NavLink>
+      <PageContent>
+        <div className='my-20'>
+          <h1 className='capstone-h1 text-center'>Capstone Experience</h1>
         </div>
-        <div>
-          Words words words
-          <NavLink to="theme2" className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80">
-            Theme 2
-          </NavLink>
+
+        <div className='flex flex-col justify-center items-center mt-10 gap-10'>
+          <ExperienceTheme heading="Unity UI Toolkit" linkTo="theme1">
+            About my experience in using Unity UI Toolkit...
+          </ExperienceTheme>
+          <ExperienceTheme heading="Systems Designing" linkTo="theme2">
+            About my experience in designing game systems...
+          </ExperienceTheme>
+          <ExperienceTheme heading="Game Art" linkTo="theme3">
+            About my experience in making game art
+          </ExperienceTheme>
+          <ExperienceTheme heading="UI Designing" linkTo="theme4">
+            About my experience in designing game UI
+          </ExperienceTheme>
         </div>
-        <div>
-          Words words words
-          <NavLink to="theme3" className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80">
-            Theme 3
-          </NavLink>
-        </div>
-        <div>
-          Words words words
-          <NavLink to="theme4" className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80">
-            Theme 4
-          </NavLink>
-        </div>
-      </div>
+
+        <NavLink to="../" className="flex underline justify-center mt-20">
+          Go back to Capstone Landing
+        </NavLink>
+      </PageContent>
     </div>
   )
 }

@@ -27,7 +27,7 @@ const User = () => {
           <h2 className='capstone-h2'>Who is this for?</h2>
             <p className='mt-4'>
               If you're a <strong>player</strong>, you would be able to explore a rich, fantastical world filled with enemies
-              battle and systems to master. From abilities and affinities to leveling and character advancements.
+              to battle and systems to master. From abilities and affinities to leveling and character advancements.
               You'll also get to:
             </p>
             <ul className='list-disc list-inside ml-5'>

@@ -4,9 +4,8 @@ import { NavLink } from 'react-router-dom'
 const Theme = ({children, prevThemePath, prevThemeLabel = "Previous Theme", nextThemePath, nextThemeLabel = "Next Theme"}) => {
   return (
     <div>
-      <div className='flex justify-center items-center mt-10'>
+      <div className=''>
         {children}
-        
       </div>
       <div className='flex gap-4 justify-between mx-50'>
         <div>
