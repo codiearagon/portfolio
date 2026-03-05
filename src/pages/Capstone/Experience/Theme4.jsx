@@ -1,8 +1,15 @@
 import React from 'react'
+import Theme from '../../../components/Capstone/Theme'
 
 const Theme4 = () => {
   return (
-    <div>Theme4</div>
+    <Theme prevThemePath="../theme3">
+      <div>
+        <h1>blabla</h1>
+        Words Words
+
+      </div>
+    </Theme>
   )
 }
 
