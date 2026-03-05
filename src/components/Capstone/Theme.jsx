@@ -25,7 +25,7 @@ const Theme = ({children, prevThemePath, prevThemeLabel = "Previous Theme", next
           )}
         </div>
       </div>
-      <NavLink to="../../" className="flex underline justify-center mt-7">
+      <NavLink to="../../" className="flex underline justify-center mt-20">
         Go back to Capstone Landing
       </NavLink>
     </div>

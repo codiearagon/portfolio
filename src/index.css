@@ -8,4 +8,12 @@
     .capstone-nav-link {
         @apply text-white mx-2 p-2 text-lg rounded-xl hover:bg-white/50
     }
+
+    .capstone-h1 {
+        @apply text-4xl font-bold text-stone-900
+    }
+
+    .capstone-h2 {
+        @apply text-2xl font-bold text-stone-700
+    }
 }
