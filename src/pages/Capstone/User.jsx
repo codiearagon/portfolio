@@ -18,7 +18,7 @@ const User = () => {
             </p>
             <p className='mt-4'>
               The goal was not just to demonstrate technical proficiency, 
-              but to show how well-crafted systems when thoughtfully combined can create meaningful, engaging gameplay. 
+              but to show how well designed systems when thoughtfully combined can create meaningful, engaging gameplay. 
               From combat and progression to character building, every system was designed with both depth and accessibility in mind.
             </p>
         </div>
@@ -36,7 +36,7 @@ const User = () => {
             </ul>
             <p className='mt-4'>
               If you're a <strong>game designer</strong>, designing and tuning content is straightforward and accessible. 
-              Core systems like character stats, ability values, and difficulty scaling can all be adjusted with ease. Beyond that:
+              Core systems like character stats, ability properties, and difficulty scaling can all be adjusted with ease. Beyond that:
             </p>
             <ul className='list-disc list-inside ml-5'>
               <li className='my-3'>Adding new characters and abilities is as simple as filling in values and selecting assets</li>
