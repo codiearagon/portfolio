@@ -29,7 +29,28 @@ const OverallCapstone = () => {
             to refactor when things inevitably go wrong.
           </p>
         </div>
-
+        <div className="mb-15 bg-gray-200 rounded-xl p-8">
+          <h2 className="capstone-h2">Building Toward a Career in Games</h2>
+          <p className="mt-4">
+            Games are the reason I got into programming and computer science in
+            the first place, and getting into game development is something I've
+            always been working toward. This project is a way for me to prove
+            that I can ship a full game on my own with complex gameplay systems
+            that you'd find in real games.
+          </p>
+          <p className="mt-4">
+            Working solo also taught me a lot about how different systems
+            connect together. Something as simple as tying an ability system to
+            particles and trails gave me a much better understanding of how
+            gameplay, visuals, and audio all depend on each other.
+          </p>
+          <p className="mt-4">
+            The genre I chose also wasn't random. RPGs are something I genuinely
+            want to work on professionally. There's a certain depth and
+            creativity that comes with coding RPG systems that I find really
+            fun, and this project let me dig into that.
+          </p>
+        </div>
         <div className="mb-15 bg-gray-200 rounded-xl p-8">
           <h2 className="capstone-h2">Stop Overengineering, Start Building</h2>
           <p className="mt-4">
@@ -82,28 +103,6 @@ const OverallCapstone = () => {
             polishing something that didn't need it yet. It tied back to the
             same lesson from my expert feedback: get things working first, and
             let that guide where your effort goes.
-          </p>
-        </div>
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">Building Toward a Career in Games</h2>
-          <p className="mt-4">
-            Games are the reason I got into programming and computer science in
-            the first place, and getting into game development is something I've
-            always been working toward. This project is a way for me to prove
-            that I can ship a full game on my own with complex gameplay systems
-            that you'd find in real games.
-          </p>
-          <p className="mt-4">
-            Working solo also taught me a lot about how different systems
-            connect together. Something as simple as tying an ability system to
-            particles and trails gave me a much better understanding of how
-            gameplay, visuals, and audio all depend on each other.
-          </p>
-          <p className="mt-4">
-            The genre I chose also wasn't random. RPGs are something I genuinely
-            want to work on professionally. There's a certain depth and
-            creativity that comes with coding RPG systems that I find really
-            fun, and this project let me dig into that.
           </p>
         </div>
         <div className="mb-15 bg-gray-200 rounded-xl p-8">

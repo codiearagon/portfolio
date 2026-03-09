@@ -34,15 +34,15 @@ const Bibliography = () => {
             references={assetRefs}
           ></BibliographySection>
           <BibliographySection
-            section="Fonts"
+            section="Font Assets"
             references={fontRefs}
           ></BibliographySection>
           <BibliographySection
-            section="Audio"
+            section="Audio Assets"
             references={audioRefs}
           ></BibliographySection>
           <BibliographySection
-            section="Web Dev"
+            section="Web Development"
             references={webdevRefs}
           ></BibliographySection>
         </div>

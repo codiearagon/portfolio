@@ -1,6 +1,9 @@
 import React from "react";
-import Theme from "../../../components/Capstone/Theme";
-import PageContent from "../../../components/Capstone/PageContent";
+import Theme from "../../../components/capstone/Theme";
+import PageContent from "../../../components/capstone/PageContent";
+import Figure from "../../../components/capstone/Figure";
+import damageText from "../../../assets/images/capstone/damageText.png";
+import uiToolkit from "../../../assets/images/capstone/uiToolkit.png";
 
 const Theme1 = () => {
   return (
@@ -11,25 +14,41 @@ const Theme1 = () => {
         </div>
 
         <div className="mb-15">
-          <h2 className="capstone-h2">
-            Using Unity UI Toolkit was the right call
-          </h2>
+          <h2 className="capstone-h2">Unity UI Toolkit vs Unity UI (uGUI)</h2>
           <p className="mt-4">
-            I've always disliked Unity's UGUI for making user interfaces like
-            menus, or the game HUD. It felt unintuitive and personally, it didnt
-            make sense to have them as game objects. Using it for in-game world
-            UI like healthbars and bubble dialogues was fine. But, I always
-            thought that it was the only option until I randomly encountered
-            Unity UI toolkit when searching for UI tips before the capstone
-            quarter started
+            I've always found uGUI unintuitive. Having UI elements exist as game
+            objects never really made sense to me, and working with it always
+            felt clunky. That said, it does have its place for in-world UI like
+            healthbars, and in this project I used it specifically for damage
+            text (See Figure 1). For a long time I thought it was the only real
+            option, until I stumbled across Unity UI Toolkit while looking up UI
+            tips before the capstone quarter started.
           </p>
-          <p className="mt-4">Unity UI Toolkit's</p>
+          <Figure
+            src={damageText}
+            figureTitle="Figure 1: Damage Text Hierarchy"
+          />
           <p className="mt-4">
-            The goal was to treat it like a real game, something that could
-            realistically support updates and expansions down the line. It also
-            gave me experience working with a larger codebase and learning how
-            to refactor when things inevitably go wrong.
+            UI Toolkit felt immediately more natural since it follows a workflow
+            similar to web development, with a clear separation between
+            document, styles, and script (See Figure 2). It was still a learning
+            curve since I hadn't touched web development in a while, but the
+            structure made a lot more sense for building HUDs and menus.
           </p>
+          <p className="mt-4">
+            It wasn't without issues though. I ran into a few bugs along the
+            way, including the UI Builder acting up as shown in Figure 2, and a
+            progress bar that wasn't correctly calculating its minimum value.
+          </p>
+          <p className="mt-4">
+            Overall, UI Toolkit is what I'll be reaching for on any future HUD
+            work. Unity also seems to be actively investing in it as a package,
+            so I'd expect it to keep getting better and more polished over time.
+          </p>
+          <Figure
+            src={uiToolkit}
+            figureTitle="Figure 2: UI Builder from Unity UI Toolkit"
+          />
         </div>
       </PageContent>
     </Theme>

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PageContent from "../../components/Capstone/PageContent";
-import ExperienceTheme from "../../components/Capstone/ExperienceTheme";
+import PageContent from "../../components/capstone/PageContent";
+import ExperienceTheme from "../../components/capstone/ExperienceTheme";
 
 const CapstoneExperience = () => {
   return (
