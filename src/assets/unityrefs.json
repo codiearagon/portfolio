@@ -1,0 +1,309 @@
+[
+	{
+		"id": "http://zotero.org/users/19361690/items/HSNPMUE4",
+		"type": "book",
+		"abstract": "Mastering Unity Game Development with C# takes you from the basics of Unity all the way to mastering advanced features needed to develop engaging games. You will learn how to structure and...",
+		"ISBN": "978-1-83546-636-0",
+		"language": "en",
+		"source": "learning.oreilly.com",
+		"title": "Mastering Unity Game Development with C#",
+		"URL": "https://learning.oreilly.com/library/view/mastering-unity-game/9781835466360/",
+		"author": [
+			{
+				"family": "Essam",
+				"given": "Mohamed"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/V29SY9WG",
+		"type": "webpage",
+		"language": "en",
+		"title": "Unity - Manual: Unity 6.3 User Manual",
+		"title-short": "Unity - Manual",
+		"URL": "https://docs.unity3d.com/6000.3/Documentation/Manual/UnityManual.html",
+		"author": [
+			{
+				"family": "Technologies",
+				"given": "Unity"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/DK6DUQML",
+		"type": "webpage",
+		"title": "Input System | Input System | 1.18.0",
+		"URL": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.18/manual/index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/75NMVVHU",
+		"type": "webpage",
+		"title": "Cinemachine package | Cinemachine | 3.1.5",
+		"URL": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/P5EIRLW9",
+		"type": "book",
+		"abstract": "Jump start your Unity game development journey with a detailed review of a complete, professionally built game using Unity, C#, and Visual Studio. Gain invaluable experience with code structure,...",
+		"ISBN": "978-1-4842-7851-2",
+		"language": "en",
+		"source": "learning.oreilly.com",
+		"title": "Advanced Unity Game Development: Build Professional Games with Unity, C#, and Visual Studio",
+		"title-short": "Advanced Unity Game Development",
+		"URL": "https://learning.oreilly.com/library/view/advanced-unity-game/9781484278512/",
+		"author": [
+			{
+				"family": "Brusca",
+				"given": "Victor"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/UL575HCZ",
+		"type": "motion_picture",
+		"abstract": "In previous videos, we've already talked about how we ditched Rewired in favor of Unity's new input system. In today's video, Thomas goes over the basics of the new input system, and how you can get started with it on your own.",
+		"dimensions": "19:30",
+		"source": "YouTube",
+		"title": "Unity's NEW input system in 13 minutes",
+		"URL": "https://www.youtube.com/watch?v=ONlMEZs9Rgw",
+		"author": [
+			{
+				"literal": "BiteMe Games"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/8SNSYQNJ",
+		"type": "webpage",
+		"abstract": "Our new e-book explains well-known design patterns and shares practical examples for using them in your Unity project.",
+		"container-title": "Unity",
+		"language": "en",
+		"title": "Level up your code with game programming patterns",
+		"URL": "https://unity.com/resources/level-up-your-code-with-game-programming-patterns",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/9HRH2ECN",
+		"type": "motion_picture",
+		"abstract": "This video shows you how to make a simple Ability System for all kinds of games in Unity. The system can be expanded easily and it allows you to change abilities in run time.",
+		"dimensions": "7:08",
+		"source": "YouTube",
+		"title": "Creating an easy Ability System in Unity",
+		"URL": "https://www.youtube.com/watch?v=ry4I6QyPw4E",
+		"author": [
+			{
+				"literal": "TIMBER"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/FE6C9PJR",
+		"type": "motion_picture",
+		"abstract": "Show your Support & Get Exclusive Benefits on Patreon (Including Access to this project's Source Files + Code) -   / sasquatchbgames  \nJoin our Discord Community! -   / discord",
+		"dimensions": "19:14",
+		"source": "YouTube",
+		"title": "Learn EVERYTHING About Particles in Unity | Easy Tutorial",
+		"URL": "https://www.youtube.com/watch?v=0HKSvT2gcuk",
+		"author": [
+			{
+				"literal": "Sasquatch B Studios"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/MPS6JYAQ",
+		"type": "motion_picture",
+		"abstract": "In this video you will learn How to Create Trail Renderer in Unity.\n\nHow to Create Trail Renderer in Unity CHAPTERS :",
+		"dimensions": "5:23",
+		"source": "YouTube",
+		"title": "How to Create Trail Renderer in Unity",
+		"URL": "https://www.youtube.com/watch?v=js2ye2f5iT0",
+		"author": [
+			{
+				"literal": "BudGames"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/HW6N6667",
+		"type": "motion_picture",
+		"abstract": "#gamedev #unity3d #tutorial #programming \n\nThis video gives a brief overview of serializeField and the new serializeReference attribute in the unity game engine, that can be really useful for serialization of more complex data structures",
+		"dimensions": "4:41",
+		"source": "YouTube",
+		"title": "SerializeReference in Unity",
+		"URL": "https://www.youtube.com/watch?v=6mtV7anusYo",
+		"author": [
+			{
+				"literal": "Button Factory Games"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					9
+				]
+			]
+		}
+	}
+]

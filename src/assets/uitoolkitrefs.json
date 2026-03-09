@@ -1,0 +1,46 @@
+[
+	{
+		"id": "http://zotero.org/users/19361690/items/WHDEMRSY",
+		"type": "webpage",
+		"abstract": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+		"language": "en",
+		"title": "(2) Unity UI Toolkit & UGUI Tutorials - YouTube",
+		"URL": "https://www.youtube.com/playlist?list=PLgCVPIIZ3xL_FVLhDrC3atsy8CiZzAMh6",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/F8C85PZ8",
+		"type": "webpage",
+		"abstract": "Learn how to build sophisticated interfaces with Unity’s UI systems.",
+		"container-title": "Unity",
+		"language": "en",
+		"title": "User interface design and implementation in Unity",
+		"URL": "https://unity.com/resources/user-interface-design-and-implementation-in-unity",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					20
+				]
+			]
+		}
+	}
+]

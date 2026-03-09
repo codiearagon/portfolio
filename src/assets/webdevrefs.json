@@ -1,0 +1,100 @@
+[
+	{
+		"id": "http://zotero.org/users/19361690/items/TEX9CPV9",
+		"type": "motion_picture",
+		"abstract": "Learn the basics of React, such as components, props, state, data fetching, and more, while building a job listing frontend.\n\nCode:",
+		"dimensions": "3:04:35",
+		"source": "YouTube",
+		"title": "React Crash Course",
+		"URL": "https://www.youtube.com/watch?v=LDB4uaJ87e0",
+		"author": [
+			{
+				"literal": "Traversy Media"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					3,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/EJZ5EF2A",
+		"type": "software",
+		"abstract": "Deploying a React App (created using create-react-app) to GitHub Pages",
+		"genre": "TypeScript",
+		"note": "original-date: 2017-06-12T23:46:29Z",
+		"source": "GitHub",
+		"title": "gitname/react-gh-pages",
+		"URL": "https://github.com/gitname/react-gh-pages",
+		"author": [
+			{
+				"family": "gitname",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/WTLF2G6T",
+		"type": "motion_picture",
+		"abstract": "Build stunning, responsive UIs with Tailwind CSS v4. Learn best practices, master utility classes, and deploy your project effortlessly.\n\n⭐ Join JS Mastery Pro: https://jsm.dev/tailwindv4-jsmpro",
+		"dimensions": "54:20",
+		"source": "YouTube",
+		"title": "Tailwind CSS v4 Full Course 2025 | Master Tailwind in One Hour",
+		"URL": "https://www.youtube.com/watch?v=6biMWgD6_JY",
+		"author": [
+			{
+				"literal": "JavaScript Mastery"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					21
+				]
+			]
+		}
+	}
+]

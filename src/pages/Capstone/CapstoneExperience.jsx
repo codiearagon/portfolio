@@ -12,17 +12,17 @@ const CapstoneExperience = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center mt-10 gap-10'>
-          <ExperienceTheme heading="Unity UI Toolkit" linkTo="theme1">
-            About my experience in using Unity UI Toolkit...
-          </ExperienceTheme>
           <ExperienceTheme heading="Systems Designing" linkTo="theme2">
             About my experience in designing game systems...
           </ExperienceTheme>
-          <ExperienceTheme heading="Game Art" linkTo="theme3">
-            About my experience in making game art
+          <ExperienceTheme heading="Unity UI Toolkit" linkTo="theme1">
+            About my experience in using Unity UI Toolkit...
           </ExperienceTheme>
           <ExperienceTheme heading="UI Designing" linkTo="theme4">
             About my experience in designing game UI
+          </ExperienceTheme>
+          <ExperienceTheme heading="Game Art" linkTo="theme3">
+            About my experience in making game art
           </ExperienceTheme>
         </div>
 

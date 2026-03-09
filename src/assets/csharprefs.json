@@ -1,0 +1,25 @@
+[
+	{
+		"id": "http://zotero.org/users/19361690/items/SLQCT8DT",
+		"type": "webpage",
+		"abstract": "Learn about expression-bodied members. See code examples that use expression body definition for properties, constructors, finalizers, and more.",
+		"language": "en-us",
+		"title": "Expression-bodied members - C#",
+		"URL": "https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members",
+		"author": [
+			{
+				"family": "BillWagner",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					17
+				]
+			]
+		}
+	}
+]

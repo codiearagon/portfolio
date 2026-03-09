@@ -1,0 +1,61 @@
+[
+	{
+		"id": "http://zotero.org/users/19361690/items/3F349TQS",
+		"type": "motion_picture",
+		"abstract": "An introduction to all of Aseprite's most useful tools, and a quick peek at how to use them effectively. Aseprite truly is a very powerful pixel art editing tool, and I'm hoping to give beginners some insight into how to get started with it. Thanks for dropping by!",
+		"dimensions": "17:12",
+		"source": "YouTube",
+		"title": "Everything You Need to Know About ASEPRITE | Pixel Art Fundamentals",
+		"URL": "https://www.youtube.com/watch?v=Ep-_nJNHPc4",
+		"author": [
+			{
+				"literal": "Watt"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/PA3CJCGI",
+		"type": "webpage",
+		"abstract": "This e-book is our biggest, most comprehensive 2D development guide, created for Unity developers and artists who want to make a commercial 2D game.",
+		"container-title": "Unity",
+		"language": "en",
+		"title": "2D game art, animation, and lighting for artists",
+		"URL": "https://unity.com/resources/2d-game-art-animation-lighting-for-artists-ebook",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					19
+				]
+			]
+		}
+	}
+]
