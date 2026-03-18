@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const PageContent = ({children}) => {
-  return (
-    <div className='px-16 max-w-4xl mx-auto my-8'>
-      {children}
-    </div>
-  )
-}
+const PageContent = ({ children }) => {
+  return <div className="px-10 max-w-4xl mx-auto my-8">{children}</div>;
+};
 
-export default PageContent
+export default PageContent;
