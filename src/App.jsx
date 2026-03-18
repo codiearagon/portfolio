@@ -20,6 +20,7 @@ import Theme1 from "./pages/Capstone/Experience/Theme1";
 import Theme2 from "./pages/Capstone/Experience/Theme2";
 import Theme3 from "./pages/Capstone/Experience/Theme3";
 import Theme4 from "./pages/Capstone/Experience/Theme4";
+import Theme5 from "./pages/Capstone/Experience/Theme5";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -34,6 +35,7 @@ const router = createHashRouter(
           <Route path="theme2" element={<Theme2 />} />
           <Route path="theme3" element={<Theme3 />} />
           <Route path="theme4" element={<Theme4 />} />
+          <Route path="theme5" element={<Theme5 />} />
         </Route>
         <Route path="bibliography" element={<Bibliography />} />
         <Route path="overall" element={<OverallCapstone />} />

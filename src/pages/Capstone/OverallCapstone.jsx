@@ -25,7 +25,7 @@ const OverallCapstone = () => {
             I wanted to change that. This project was my chance to build a game
             completely on my own, with full control over the architecture and
             design, and treat it like a real game that could support updates and
-            expansions down the line. The capstone also gave me the extra push I
+            expansions down the line. The capstone gave me the extra push I
             needed with my grades and degree on the line. I couldn't just drop
             the project halfway through due to burnout or poor time management.
           </p>
@@ -33,10 +33,10 @@ const OverallCapstone = () => {
             The genre I chose also wasn't random. RPGs are something I genuinely
             want to work on professionally. There's a certain depth and
             creativity that comes with coding RPG systems that I find really
-            fun, and this project let me dig into that. It also gave me a way to
-            prove that I can ship a full game on my own with complex systems,
-            and learn firsthand how gameplay, visuals, and audio all depend on
-            each other.
+            fun, and this project let me dig into that. This project also gave
+            me a way to prove that I can ship a full game on my own with complex
+            systems, and learn firsthand how gameplay, visuals, and audio all
+            depend on each other.
           </p>
         </div>
 
