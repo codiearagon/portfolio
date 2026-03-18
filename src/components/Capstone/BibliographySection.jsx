@@ -1,6 +1,6 @@
 import Citation from "./Citation";
 
-const BibliographySection = ({ section, references }) => {
+const BibliographySection = ({ section, annotation, references }) => {
   const stripArticle = (title) => {
     return title.replace(/^(a |an |the )/i, "").trim();
   };
@@ -26,10 +26,11 @@ const BibliographySection = ({ section, references }) => {
 
   return (
     <div className="bg-gray-200 rounded-xl mt-10">
-      <div className="py-6">
-        <h2 className="capstone-h2 text-center">{section}</h2>
+      <div className="px-8 py-8">
+        <h2 className="capstone-h2">{section}</h2>
+        <p className="mt-2">{annotation}</p>
       </div>
-      <div className="max-w-3xl mx-auto px-8 pb-6 flex flex-col gap-6">
+      <div className="max-w-3xl mx-auto px-8 pb-6 flex flex-col gap-4">
         {sortByAuthorThenTitle(references).map((ref, index) => (
           <Citation
             key={index}

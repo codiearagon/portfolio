@@ -1,38 +1,5 @@
 [
 	{
-		"id": "http://zotero.org/users/19361690/items/HSNPMUE4",
-		"type": "book",
-		"abstract": "Mastering Unity Game Development with C# takes you from the basics of Unity all the way to mastering advanced features needed to develop engaging games. You will learn how to structure and...",
-		"ISBN": "978-1-83546-636-0",
-		"language": "en",
-		"source": "learning.oreilly.com",
-		"title": "Mastering Unity Game Development with C#",
-		"URL": "https://learning.oreilly.com/library/view/mastering-unity-game/9781835466360/",
-		"author": [
-			{
-				"family": "Essam",
-				"given": "Mohamed"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2026",
-					1,
-					14
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2024",
-					7
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/19361690/items/V29SY9WG",
 		"type": "webpage",
 		"language": "en",
