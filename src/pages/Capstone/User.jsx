@@ -16,8 +16,8 @@ const User = () => {
             This project is a single-player RPG set in a fantastical world,
             built around deep character systems and meaningful progression. You
             get to follow and play characters who were once ordinary people from
-            Earth, now thrown into an unfamiliar world with abilities, enemies,
-            and a life story that's yours to discover and shape.
+            Earth, now thrown into an unfamiliar world with abilities and
+            enemies. It is up to you how the characters will live their lives.
           </p>
         </div>
 
