@@ -1,13 +1,13 @@
-import { Outlet } from "react-router-dom"
-import CapstoneNavbar from "../components/capstone/CapstoneNavbar"
+import { Outlet } from "react-router-dom";
+import CapstoneNavbar from "../components/capstone/CapstoneNavbar";
 
 const CapstoneLayout = () => {
   return (
     <>
-      <CapstoneNavbar/>
-      <Outlet/>
+      <CapstoneNavbar />
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default CapstoneLayout
+export default CapstoneLayout;

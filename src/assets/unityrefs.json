@@ -272,5 +272,37 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/2PJ4Y8C5",
+		"type": "motion_picture",
+		"abstract": "Show your Support & Get Exclusive Benefits on Patreon (Including Access to this project's Source Files + Code) -   / sasquatchbgames  \nJoin our Discord Community! -   / discord",
+		"dimensions": "13:50",
+		"source": "YouTube",
+		"title": "Create A DAMAGE FLASH Effect for Sprites | Unity Tutorial",
+		"URL": "https://www.youtube.com/watch?v=rq6yGh-piIU",
+		"author": [
+			{
+				"literal": "Sasquatch B Studios"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					23
+				]
+			]
+		}
 	}
 ]

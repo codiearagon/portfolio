@@ -7,9 +7,9 @@ import currentCharacter from "../../../assets/images/capstone/currentcharacterdi
 import initialAbility from "../../../assets/images/capstone/initialabilitydiagram.png";
 import currentAbility from "../../../assets/images/capstone/currentabilitydiagram.png";
 
-const Theme2 = () => {
+const Theme1 = () => {
   return (
-    <Theme nextThemePath="../theme2">
+    <Theme nextThemePath="../theme2" nextThemeLabel="Unity UI Toolkit">
       <PageContent>
         <div className="my-20">
           <h1 className="capstone-h1 text-center">Systems Designing</h1>
@@ -86,4 +86,4 @@ const Theme2 = () => {
   );
 };
 
-export default Theme2;
+export default Theme1;

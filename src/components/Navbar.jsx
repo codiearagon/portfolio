@@ -1,11 +1,14 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-red-500 p-6">
-        <NavLink to="/" className="text-white text-3xl font-mono font-bold hover:text-black">
-          Codie's Portfolio
-        </NavLink>
+    <div className="sticky top-0 z-50 w-full flex justify-between items-center bg-red-500 p-6">
+      <NavLink
+        to="/"
+        className="text-white text-3xl font-mono font-bold hover:text-black"
+      >
+        Codie's Portfolio
+      </NavLink>
       <div className="">
         <NavLink to="/capstone" className="nav-link">
           Capstone
@@ -18,7 +21,7 @@ const Navbar = () => {
         </NavLink>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

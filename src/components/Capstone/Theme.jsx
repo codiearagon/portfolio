@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Theme = ({
   children,
@@ -16,9 +17,10 @@ const Theme = ({
           {prevThemePath && (
             <NavLink
               to={prevThemePath}
-              className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
+              className="flex items-center gap-2 px-4 py-2 bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
             >
-              {prevThemeLabel}
+              <FaChevronLeft />
+              <span>{prevThemeLabel}</span>
             </NavLink>
           )}
         </div>
@@ -27,9 +29,10 @@ const Theme = ({
           {nextThemePath && (
             <NavLink
               to={nextThemePath}
-              className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
+              className="flex items-center gap-2 px-4 py-2 bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
             >
-              {nextThemeLabel}
+              <span>{nextThemeLabel}</span>
+              <FaChevronRight />
             </NavLink>
           )}
         </div>

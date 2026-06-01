@@ -4,11 +4,21 @@ import PageContent from "../../../components/capstone/PageContent";
 import Figure from "../../../components/capstone/Figure";
 import initialDesign from "../../../assets/images/capstone/initiallayladesign.png";
 import currentDesign from "../../../assets/images/capstone/currentlayladesign.png";
-import abilitySprites from "../../../assets/images/capstone/abilitysprites.png";
+import abilitySprites1 from "../../../assets/images/capstone/abilitySprites1.png";
+import abilitySprites2 from "../../../assets/images/capstone/abilitySprites2.png";
+import waterSplash1 from "../../../assets/images/capstone/waterSplash1.png";
+import waterSplash2 from "../../../assets/images/capstone/waterSplash2.png";
+import fireSplash1 from "../../../assets/images/capstone/fireSplash1.png";
+import fireSplash2 from "../../../assets/images/capstone/fireSplash2.png";
 
-const Theme3 = () => {
+const Theme4 = () => {
   return (
-    <Theme prevThemePath="../theme3" nextThemePath="../theme5">
+    <Theme
+      prevThemeLabel="UI Designing"
+      prevThemePath="../theme3"
+      nextThemePath="../theme5"
+      nextThemeLabel="Game Demo"
+    >
       <PageContent>
         <div className="my-20">
           <h1 className="capstone-h1 text-center">Game Art</h1>
@@ -53,6 +63,45 @@ const Theme3 = () => {
           ></Figure>
         </div>
         <div className="mb-15">
+          <h2 className="capstone-h2">Splash Arts</h2>
+          <p className="mt-4">
+            Aside from liking the idea of advancements because of the sense of
+            progression, I also wanted to add them to the game because I wanted
+            to draw splash arts.
+          </p>
+          <p className="mt-4">
+            Figure 3 shows the early rough of the water splash art. The main
+            idea was to look somewhat melancholic to reflect the intended lore
+            for the water path, which was lamenting over loneliness and trying
+            to cope with it. Figure 4 shows the improved version and the I
+            decided to hide the eyes behind the bangs to increase that vibe of
+            loneliness, but I wanted her to feel a bit more powerful so I made
+            her look at the viewer.
+          </p>
+          <Figure
+            src={waterSplash1}
+            figureTitle="Figure 3: First Layla water splash art"
+          ></Figure>
+          <Figure
+            src={waterSplash2}
+            figureTitle="Figure 4: Second Layla water splash art"
+          ></Figure>
+          <p className="mt-4">
+            As for the fire splash art, the idea behind it is that Layla has had
+            enough of being a pushover and is now being more assertive with
+            protecting herself. And so, I had her take a more confident pose
+            with a sharp look in her eyes.
+          </p>
+          <Figure
+            src={fireSplash1}
+            figureTitle="Figure 5: First Layla fire splash art"
+          ></Figure>
+          <Figure
+            src={fireSplash2}
+            figureTitle="Figure 6: Second Layla fire splash art"
+          ></Figure>
+        </div>
+        <div className="mb-15">
           <h2 className="capstone-h2">Pixel Art</h2>
           <p className="mt-4">
             For the in-game art, I went with pixel art over vector art for a
@@ -60,26 +109,35 @@ const Theme3 = () => {
             a pixel art software, a few months before the project and didn't
             want it to go to waste. But I also thought that once I got
             comfortable with it, creating animations would be a lot more
-            manageable. Figure 3 shows a few examples of the ability sprites I
+            manageable. Figure 7 shows a few examples of the ability sprites I
             made.
           </p>
           <Figure
-            src={abilitySprites}
-            figureTitle="Figure 3: Fireball, Water blade, and Rock bullet sprites"
+            src={abilitySprites1}
+            figureTitle="Figure 7: First Fireball, Water blade, and Rock bullet sprites"
           ></Figure>
-          <p className="mt-4">
-            I'm not planning to spend too much time on highly detailed ability
-            sprites since I'd rather redirect that effort toward the visual
-            effects and characters instead. That said, a lot of what I learned
-            from illustration carried over naturally, things like color theory
-            and shape design, so the two skills overlap more than I expected.
-          </p>
           <p className="mt-4">
             Pixel art is also a lot harder than I anticipated. Every single
             pixel carries weight, and placing a color in the wrong spot can
             throw off the entire design. It forces you to be really intentional
             about what each pixel is actually representing, which is a different
-            kind of challenge compared to illustration.
+            kind of challenge compared to illustration. That said, a lot of what
+            I learned from illustration carried over naturally, things like
+            color theory and shape design, so the two skills overlap more than I
+            expected.
+          </p>
+          <Figure
+            src={abilitySprites2}
+            figureTitle="Figure 8: Second Fireball, Water blade, and Rock bullet sprites"
+          ></Figure>
+          <p className="mt-4">
+            With the second iteration of the sprites, the visual impact has
+            significantly improved. I added a lot more contrast and a more
+            organic shape to the abilities. The previous sprites were too rigid
+            and it didn't really feel like they represented what they had to
+            represent. It is also fully animated and seeing the animations
+            in-game really enhances the feeling of playing a game and sense of
+            completion.
           </p>
         </div>
       </PageContent>
@@ -87,4 +145,4 @@ const Theme3 = () => {
   );
 };
 
-export default Theme3;
+export default Theme4;

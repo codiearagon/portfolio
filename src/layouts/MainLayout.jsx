@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
+import { FaChevronUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 
 const MainLayout = () => {
@@ -14,6 +15,12 @@ const MainLayout = () => {
     <>
       <Navbar />
       <Outlet />
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className="fixed bottom-10 right-10 p-3 rounded-full bg-slate-800 text-white shadow-lg hover:cursor-pointer"
+      >
+        <FaChevronUp />
+      </button>
     </>
   );
 };

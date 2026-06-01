@@ -1,25 +1,26 @@
 import Theme from "../../../components/capstone/Theme";
 import PageContent from "../../../components/capstone/PageContent";
 
-const Theme3 = () => {
+const Theme5 = () => {
   return (
-    <Theme prevThemePath="../theme4">
+    <Theme prevThemeLabel="Game Art" prevThemePath="../theme4">
       <PageContent>
         <div className="my-20">
-          <h1 className="capstone-h1 text-center">Final Game</h1>
+          <h1 className="capstone-h1 text-center">Game Demo</h1>
         </div>
 
-        <div className="mb-15">
-          <h2 className="capstone-h2">Game Demo</h2>
-          <p className="mt-4">Here is a quick demo of the current game:</p>
+        <div className="mb-15 w-full aspect-video">
+          <p className="mt-4 mb-2">Here is a quick demo of the current game:</p>
           <iframe
-            className="mt-2 w-full aspect-video rounded-lg"
-            src="https://www.youtube.com/embed/p7uQ1JoLVqo?si=LobRvQWQZcBxMvqK"
-            title="Game Demo"
-            frameborder="0"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9-B06fCl0xE?si=liWER_jbv0Z0AZdB"
+            title="YouTube video player"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="w-full h-full object-cover"
           ></iframe>
         </div>
       </PageContent>
@@ -27,4 +28,4 @@ const Theme3 = () => {
   );
 };
 
-export default Theme3;
+export default Theme5;

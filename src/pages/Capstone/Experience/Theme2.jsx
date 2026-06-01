@@ -5,9 +5,14 @@ import Figure from "../../../components/capstone/Figure";
 import damageText from "../../../assets/images/capstone/damageText.png";
 import uiToolkit from "../../../assets/images/capstone/uiToolkit.png";
 
-const Theme1 = () => {
+const Theme2 = () => {
   return (
-    <Theme prevThemePath="../theme1" nextThemePath="../theme3">
+    <Theme
+      prevThemeLabel="Systems Designing"
+      prevThemePath="../theme1"
+      nextThemePath="../theme3"
+      nextThemeLabel="UI Designing"
+    >
       <PageContent>
         <div className="my-20">
           <h1 className="capstone-h1 text-center">Unity UI Toolkit</h1>
@@ -55,4 +60,4 @@ const Theme1 = () => {
   );
 };
 
-export default Theme1;
+export default Theme2;

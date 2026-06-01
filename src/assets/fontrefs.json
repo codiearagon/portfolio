@@ -22,5 +22,86 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/ILJQI48S",
+		"type": "webpage",
+		"title": "November Font · 1001 Fonts",
+		"URL": "https://www.1001fonts.com/november-font.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					4,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/2F3AAYXZ",
+		"type": "webpage",
+		"abstract": "Download Bangers Font · Free for commercial use · Bangers is a comicbook style font which packs a punch! It was designed in the style of mid-20th century superhero comics cover lettering in mind.",
+		"container-title": "1001 Fonts",
+		"language": "english",
+		"title": "Bangers Font · 1001 Fonts",
+		"URL": "https://www.1001fonts.com/bangers-font.html",
+		"author": [
+			{
+				"family": "Fonts",
+				"given": "1001"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/ZZDZV5UK",
+		"type": "webpage",
+		"abstract": "Download Cinzel Font Family · Free for commercial use · Cinzel is a typeface inspired in first century roman inscriptions, and based on classical proportions. However it’s not a simple revivalism. While it",
+		"container-title": "1001 Fonts",
+		"language": "english",
+		"title": "Cinzel Font Family · 1001 Fonts",
+		"URL": "https://www.1001fonts.com/cinzel-font.html",
+		"author": [
+			{
+				"family": "Fonts",
+				"given": "1001"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/19361690/items/SC4ZH694",
+		"type": "webpage",
+		"abstract": "Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.",
+		"container-title": "Google Fonts",
+		"language": "en-US",
+		"title": "Source Sans 3",
+		"URL": "https://fonts.google.com/specimen/Source+Sans+3",
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					2
+				]
+			]
+		}
 	}
 ]
