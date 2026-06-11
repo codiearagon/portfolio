@@ -17,7 +17,7 @@ const Theme = ({
           {prevThemePath && (
             <NavLink
               to={prevThemePath}
-              className="flex items-center gap-2 px-4 py-2 button-primary rounded-xl shadow-lg"
+              className="flex items-center gap-2 px-4 py-2 button-primary rounded-md shadow-lg"
             >
               <FaChevronLeft />
               <span>{prevThemeLabel}</span>
@@ -29,7 +29,7 @@ const Theme = ({
           {nextThemePath && (
             <NavLink
               to={nextThemePath}
-              className="flex items-center gap-2 px-4 py-2 button-primary rounded-xl shadow-lg "
+              className="flex items-center gap-2 px-4 py-2 button-primary rounded-md shadow-lg "
             >
               <span>{nextThemeLabel}</span>
               <FaChevronRight />
