@@ -7,7 +7,7 @@ const OverallCapstone = () => {
     <div>
       <PageContent>
         <div className="my-20">
-          <h1 className="capstone-h1 text-center">Overall Capstone</h1>
+          <h1 className="capstone-h1 text-center">Personal Reflections</h1>
         </div>
 
         <div className="mb-15 bg-gray-200 rounded-xl p-8">

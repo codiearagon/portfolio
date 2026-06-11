@@ -4,6 +4,7 @@ import PageContent from "../../../components/capstone/PageContent";
 import Figure from "../../../components/capstone/Figure";
 import damageText from "../../../assets/images/capstone/damageText.png";
 import uiToolkit from "../../../assets/images/capstone/uiToolkit.png";
+import uitoolkitproblem from "../../../assets/images/capstone/uitoolkitproblem.png";
 
 const Theme2 = () => {
   return (
@@ -38,21 +39,37 @@ const Theme2 = () => {
             similar to web development, with a clear separation between
             document, styles, and script (See Figure 2). It was still a learning
             curve since I hadn't touched web development in a while, but the
-            structure made a lot more sense for building HUDs and menus.
+            structure made a lot more sense for building menus.
           </p>
           <p className="mt-4">
             It wasn't without issues though. I ran into a few bugs along the
             way, including the UI Builder acting up as shown in Figure 2, and a
             progress bar that wasn't correctly calculating its minimum value.
           </p>
-          <p className="mt-4">
-            Overall, UI Toolkit is what I'll be reaching for on any future HUD
-            work. Unity also seems to be actively investing in it as a package,
-            so I'd expect it to keep getting better and more polished over time.
-          </p>
           <Figure
             src={uiToolkit}
             figureTitle="Figure 2: UI Builder from Unity UI Toolkit"
+          />
+          <p className="mt-4">
+            After working with UI Toolkit, I think that UI Toolkit's biggest
+            strength is definitely working with menus. I don't think it's good
+            for in-game UI, and honestly even HUDs. I haven't gone very deep
+            into it and I probably haven't touched even 50% of the features it
+            offers, but the biggest problem to me right now is the amount of
+            references that I have to make for each element I want to use. On
+            top of that, I'm making references through string, which to me is
+            just unreliable and prone to mistakes.
+          </p>
+          <p className="mt-4">
+            Looking at Figure 3, the amount of string references I have to make
+            seems a bit too much for me. Now, I know that I can split this up
+            into multiple files, especially the ability slots. I probably
+            should, but the point that there is too much string references still
+            stands.
+          </p>
+          <Figure
+            src={uitoolkitproblem}
+            figureTitle="Figure 3: UI Toolkit struggles"
           />
         </div>
       </PageContent>

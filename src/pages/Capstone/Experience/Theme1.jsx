@@ -80,6 +80,14 @@ const Theme1 = () => {
             src={currentAbility}
             figureTitle="Figure 4: Current Ability Diagram"
           />
+          <p className="mt-4">
+            I'm still quite dissatisfied with the ability system. Honestly, I
+            don't have to do much as a programmer now that this is system in
+            place, but adding and modifying abilities have become painful. This
+            is the complete opposite of what I wanted, which was to make adding
+            content easy. Therefore, I'm looking to refactor this system in the
+            near future.
+          </p>
         </div>
       </PageContent>
     </Theme>

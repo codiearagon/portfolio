@@ -145,6 +145,19 @@ const Theme3 = () => {
             which was a new experience for me.
           </p>
         </div>
+        <div className="mb-15">
+          <h2 className="capstone-h2">Overall Thoughts</h2>
+          <p className="mt-4">
+            UI is honestly the most challenging part of the development process.
+            It's hard to know where to place the panels and how to design them
+            in a way that conveys the theme of the game. From this experience, I
+            learned that choosing the right fonts really sets the vibe of the
+            game. In my initial designs, I had a more pixel art font and I
+            thought it looked good. But after exploring other fonts, I realized
+            that just because a game has pixel art, it doesn't mean that
+            everything has to be pixel art.
+          </p>
+        </div>
       </PageContent>
     </Theme>
   );

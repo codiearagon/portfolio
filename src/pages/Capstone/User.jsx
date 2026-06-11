@@ -7,10 +7,10 @@ const User = () => {
     <div>
       <PageContent>
         <div className="my-20">
-          <h1 className="capstone-h1 text-center">The User</h1>
+          <h1 className="capstone-h1 text-center">For Players</h1>
         </div>
 
-        <div className="mb-15">
+        <div className="mb-15 bg-gray-200 rounded-xl p-8">
           <h2 className="capstone-h2">What is this?</h2>
           <p className="mt-4">
             This project is a single-player RPG set in a fantastical world,
@@ -21,7 +21,7 @@ const User = () => {
           </p>
         </div>
 
-        <div className="mb-15">
+        <div className="mb-15 bg-gray-200 rounded-xl p-8">
           <h2 className="capstone-h2">Who is this for?</h2>
           <p className="mt-4">
             If you're a <strong>player</strong>, you would be able to explore a
@@ -55,12 +55,19 @@ const User = () => {
           </ul>
         </div>
 
-        <div className="mb-15">
+        <div className="mb-15 bg-gray-200 rounded-xl p-8">
           <h2 className="capstone-h2">How to play the game?</h2>
           <p className="mt-4">
             The game can be played over at itch.io with this link:
           </p>
-          <p className="mt-4">"insert webgl link to itch.io"</p>
+          <a
+            className="block mt-4 underline text-blue-600 hover:text-blue-800"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://codie10.itch.io/the-misfortuned"
+          >
+            https://codie10.itch.io/the-misfortuned
+          </a>
         </div>
 
         <NavLink to="../" className="flex underline justify-center mt-20">
