@@ -1,24 +1,19 @@
 import { NavLink } from "react-router-dom";
+import NavItem from "./NavItem";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 w-full flex justify-between items-center bg-red-500 p-6">
+    <div className="sticky top-0 z-51 w-full flex justify-between items-center bg-bg border-b border-red-deep  p-6">
       <NavLink
         to="/"
-        className="text-white text-3xl font-mono font-bold hover:text-black"
+        className="text-white text-3xl font-mono font-bold hover:text-red"
       >
         Codie's Portfolio
       </NavLink>
       <div className="">
-        <NavLink to="/capstone" className="nav-link">
-          Capstone
-        </NavLink>
-        <NavLink to="/projects" className="nav-link">
-          Projects
-        </NavLink>
-        <NavLink to="/aboutme" className="nav-link">
-          About Me
-        </NavLink>
+        <NavItem to="/capstone">Capstone</NavItem>
+        <NavItem to="/projects">Projects</NavItem>
+        <NavItem to="/aboutme">About Me</NavItem>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import PageContent from "../../components/capstone/PageContent";
 import { NavLink } from "react-router-dom";
+import GenericCard from "../../components/GenericCard";
 
 const OverallCapstone = () => {
   return (
@@ -10,8 +11,10 @@ const OverallCapstone = () => {
           <h1 className="capstone-h1 text-center">Personal Reflections</h1>
         </div>
 
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">A Long-Term Game Development Journey</h2>
+        <GenericCard
+          title="A Long-Term Game Development Journey"
+          className="mb-15"
+        >
           <p className="mt-4">
             Games are the reason I got into programming and computer science in
             the first place, and getting into game development is something I've
@@ -38,10 +41,12 @@ const OverallCapstone = () => {
             systems, and learn firsthand how gameplay, visuals, and audio all
             depend on each other.
           </p>
-        </div>
+        </GenericCard>
 
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">Stop Overengineering, Start Building</h2>
+        <GenericCard
+          title="Stop Overengineering, Start Building"
+          className="mb-15"
+        >
           <p className="mt-4">
             In my first few weeks of development, I was mostly focused on
             implementing the character system and projectile system as part of
@@ -66,11 +71,11 @@ const OverallCapstone = () => {
             apply to coding. It's something that carries over into making art
             and picking up other skills too.
           </p>
-        </div>
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">
-            Finding a Workflow That Actually Works
-          </h2>
+        </GenericCard>
+        <GenericCard
+          title="Finding a Workflow That Actually Works"
+          className="mb-15"
+        >
           <p className="mt-4">
             A game isn't just code. It also involves visual assets, audio, and a
             lot of other moving parts, so figuring out how to split my time was
@@ -93,9 +98,8 @@ const OverallCapstone = () => {
             same lesson from my expert feedback: get things working first, and
             let that guide where my effort goes.
           </p>
-        </div>
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">The Value of Working Alone</h2>
+        </GenericCard>
+        <GenericCard title="The Value of Working Alone" className="mb-15">
           <p className="mt-4">
             Managing multiple gameplay systems on my own was the most
             challenging part of this project, but also the most rewarding. Every
@@ -114,9 +118,8 @@ const OverallCapstone = () => {
             be fun for everyone who plays it, at the end of the day I wanted to
             build something that I would genuinely love playing myself.
           </p>
-        </div>
-        <div className="mb-15 bg-gray-200 rounded-xl p-8">
-          <h2 className="capstone-h2">Conclusion</h2>
+        </GenericCard>
+        <GenericCard title="Conclusion" className="mb-15">
           <p className="mt-4">
             The biggest thing this project taught me is that building fast and
             iterating is just as important as building it right. That's a lesson
@@ -129,8 +132,8 @@ const OverallCapstone = () => {
             there'll be enough in the game for players to really dig in and
             explore what it has to offer.
           </p>
-        </div>
-        <NavLink to="../" className="flex underline justify-center mt-20">
+        </GenericCard>
+        <NavLink to="../" className="flex link underline justify-center mt-20">
           Go back to Capstone Landing
         </NavLink>
       </PageContent>

@@ -17,7 +17,7 @@ const Theme = ({
           {prevThemePath && (
             <NavLink
               to={prevThemePath}
-              className="flex items-center gap-2 px-4 py-2 bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
+              className="flex items-center gap-2 px-4 py-2 button-primary rounded-xl shadow-lg"
             >
               <FaChevronLeft />
               <span>{prevThemeLabel}</span>
@@ -29,7 +29,7 @@ const Theme = ({
           {nextThemePath && (
             <NavLink
               to={nextThemePath}
-              className="flex items-center gap-2 px-4 py-2 bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
+              className="flex items-center gap-2 px-4 py-2 button-primary rounded-xl shadow-lg "
             >
               <span>{nextThemeLabel}</span>
               <FaChevronRight />
@@ -37,7 +37,10 @@ const Theme = ({
           )}
         </div>
       </div>
-      <NavLink to="../../" className="flex underline justify-center mt-20 py-8">
+      <NavLink
+        to="../../"
+        className="flex link underline justify-center mt-20 py-8"
+      >
         Go back to Capstone Landing
       </NavLink>
     </div>

@@ -1,25 +1,66 @@
 @import "tailwindcss";
 
+@theme {
+  --color-bg: #0a0a0a;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #1a1a1a;
+
+  --color-red: #dc2626;
+  --color-red-light: #ef4444;
+  --color-red-dark: #991b1b;
+  --color-red-deep: #450a0a;
+
+  --color-gold: #d4af37;
+  --color-gold-light: #f8bf24;
+  --color-gold-dark: #b08930;
+  --color-gold-muted: #3f1d0d;
+  --color-gold-light-muted: #5c2b14;
+
+  --color-text: #f3f4f6;
+  --color-text-secondary: #d1d5db;
+  --color-text-muted: #9ca3af;
+}
+
 @layer base {
+  :root {
+    @apply bg-bg text-text;
+  }
+
+  body {
+    @apply bg-bg text-text antialiased;
+  }
+
+  h1 {
+    @apply text-4xl text-text font-bold;
+  }
+
+  h2 {
+    @apply text-2xl text-gold font-semibold;
+  }
+
+  h3 {
+    @apply text-red-light font-semibold;
+  }
+
+  p {
+    @apply mt-4;
+  }
+
   html {
     scroll-behavior: smooth;
   }
 }
 
 @layer components {
-  .nav-link {
-    @apply text-white mx-2 p-4 text-xl rounded-xl hover:bg-white/30;
+  .button-primary {
+    @apply transition-colors duration-300 bg-red hover:bg-red-light text-white;
   }
 
-  .capstone-nav-link {
-    @apply text-white mx-2 p-2 text-lg rounded-xl hover:bg-white/50;
+  .button-secondary {
+    @apply border border-gold text-gold hover:bg-gold/50;
   }
 
-  .capstone-h1 {
-    @apply text-4xl font-bold text-stone-900;
-  }
-
-  .capstone-h2 {
-    @apply text-2xl font-bold text-stone-700;
+  .link {
+    @apply text-text-muted hover:text-red transition-colors duration-300;
   }
 }

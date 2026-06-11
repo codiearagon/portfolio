@@ -19,33 +19,21 @@ const CapstoneLanding = () => {
             Navigate my capstone project using the buttons below.
           </p>
         </div>
-        <div className="flex justify-center">
-          <NavLink
-            to="user"
-            className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
-          >
+        <div className="flex justify-center gap-5">
+          <NavLink to="user" className="button-primary p-3 rounded-md">
             For Players
           </NavLink>
-          <NavLink
-            to="experience"
-            className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
-          >
+          <NavLink to="experience" className="button-primary p-3 rounded-md">
             Development Process
           </NavLink>
-          <NavLink
-            to="bibliography"
-            className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
-          >
+          <NavLink to="bibliography" className="button-primary p-3 rounded-md">
             Annotated Bibliography
           </NavLink>
-          <NavLink
-            to="overall"
-            className="bg-red-400 text-white capstone-nav-link shadow-lg hover:bg-red-400/80"
-          >
+          <NavLink to="overall" className="button-primary p-3 rounded-md">
             Personal Reflections
           </NavLink>
         </div>
-        <img src={fireSplash} className="mt-10 rounded-xl" />
+        <img src={fireSplash} className="mt-10 rounded-xl rounded-md" />
       </PageContent>
     </div>
   );

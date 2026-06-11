@@ -6,7 +6,7 @@ const Citation = ({ author, title, publisher, year, url, accessDate }) => {
       {publisher && <span>{publisher}, </span>}
       {year && <span>{year}. </span>}
       {url && (
-        <a className="text-blue-600 hover:text-blue-500" href={url}>
+        <a className="link" href={url}>
           {url}.{" "}
         </a>
       )}

@@ -54,7 +54,7 @@ const Bibliography = () => {
           ></BibliographySection>
         </div>
 
-        <NavLink to="../" className="flex underline justify-center mt-20">
+        <NavLink to="../" className="flex link underline justify-center mt-20">
           Go back to Capstone Landing
         </NavLink>
       </PageContent>
