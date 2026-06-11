@@ -11,13 +11,10 @@ const ExperienceTheme = ({
   return (
     <NavLink
       to={linkTo}
-      className="group flex flex-col transition-all duration-200 items-start bg-bg-secondary border border-gold-muted w-xl p-8 rounded-2xl hover:border-gold-light-muted hover:-translate-y-1"
+      className="group transition-all duration-200 items-start bg-bg-secondary border border-gold-muted w-xl p-8 rounded-2xl hover:border-gold-light-muted hover:-translate-y-1"
     >
-      <div>
-        <h2 className="capstone-h2">{heading}</h2>
-        <p className="mt-4 pr-35">{children}</p>
-      </div>
-
+      <h2 className="capstone-h2">{heading}</h2>
+      <p>{children}</p>
       <div className="flex justify-end mt-6">
         <FaChevronRight
           className="transition-all duration-300 text-red-dark group-hover:translate-x-3"

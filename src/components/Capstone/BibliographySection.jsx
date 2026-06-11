@@ -25,7 +25,7 @@ const BibliographySection = ({ section, annotation, references }) => {
   };
 
   return (
-    <div className="bg-bg-secondary transition-all duration-300 border border-gold-muted hover:border-gold-light-muted hover:-translate-y-1 rounded-xl mt-10">
+    <section className="bg-bg-secondary transition-all duration-300 border border-gold-muted hover:border-gold-light-muted hover:-translate-y-1 rounded-xl mt-10">
       <div className="px-8 py-8">
         <h2 className="capstone-h2">{section}</h2>
         <p className="mt-2">{annotation}</p>
@@ -46,7 +46,7 @@ const BibliographySection = ({ section, annotation, references }) => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -17,7 +17,7 @@ const MainLayout = () => {
       <Outlet />
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-10 right-10 p-3 rounded-full bg-slate-800 text-white shadow-lg hover:cursor-pointer"
+        className="fixed bottom-10 right-10 p-3 rounded-full bg-red-deep text-text shadow-lg hover:cursor-pointer"
       >
         <FaChevronUp />
       </button>

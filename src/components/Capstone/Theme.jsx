@@ -10,7 +10,7 @@ const Theme = ({
   nextThemeLabel = "Next Theme",
 }) => {
   return (
-    <div>
+    <section>
       <div className="">{children}</div>
       <div className="flex gap-4 justify-between mx-50">
         <div>
@@ -43,7 +43,7 @@ const Theme = ({
       >
         Go back to Capstone Landing
       </NavLink>
-    </div>
+    </section>
   );
 };
 
